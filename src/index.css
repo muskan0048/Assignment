@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Spartan MB';
+  font-style: normal;
+  src: url('../src/fonts/SpartanMB-Regular.woff'); /* IE9 Compat Modes */
+  src: local('Spartan MB'), local('SpartanMB'),
+       url('../src/fonts/SpartanMB-Regular.woff') format('woff'), /* Modern Browsers */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btnProperty{
+width: 53px;
+height: 53px;
+border-radius: 27px;
+border: 2px solid #f60c25;
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 25px;
+color: #f60c25;
+font-family: "Spartan MB";
+font-weight: 600;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.enteredText{
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #f60c25;
+  font-family: "Spartan MB";
+  font-weight: 600;
+  text-align: center;
+}
+
+.btnProperty:hover{
+  background-color: #f60c25;
+  color:#fff;
+  
+  }
+
+.mobile{
+  min-height: 700px;
+  background-image: url('../src/assets/image.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: center;
+}
+.logo{
+width: 29px;
+height: 37px;
+}
+
+.heading{
+font-size: 35px;
+letter-spacing: 1px;
+color: #f60c25;
+font-family: "Spartan MB";
+font-weight: 900;
+}
+
+.redHr{
+  background-color: #000000;
+border: 5px solid #f60c25;
+}
+
+.orgHr{
+  background-color: #d99970;
+border: 5px solid #ebb186;
+}
+
+.word{
+font-size: 20px;
+color: #000000;
+font-family: "Spartan MB";
+font-weight: 600;
+}
+
+.wordLength{
+  width: 36px;
+  height: 36px;
+  border-radius: 27px;
+  border: 2px solid #f60c25;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color:#fff;
+  background-color: #f60c25;
+  font-family: "Spartan MB";
+  font-weight: 600;
+  }
+
+  .hr {
+    display: inline-block;
+  }
+  .hr:after {
+    content: '';
+    display: block;
+    border-top: 2px dashed black;
+    margin-top: 0.5em;
+  }
+
+  .imageBg{
+    width: 370px;
+  }
+ 
+
